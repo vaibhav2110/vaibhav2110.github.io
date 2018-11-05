@@ -1,0 +1,61 @@
+.my_info{
+    display: flex;
+    flex-direction: column;
+}
+.my_form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.element{
+    padding: 10px;
+}
+.element h4{
+    color: white;
+}
+.element p{
+    padding: 0;
+    margin: 0;
+}
+.element input, .element textarea{
+    padding: 10px;
+    opacity: 0.8;
+    border: 0px;
+    border-radius: 5px;
+}
+form .element{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: inline;
+}
+.name input{
+    width: 40%
+}
+.email input{
+    width: 40%
+}
+textarea{
+    margin-top: 20px;
+    width: 40%;
+    height: 100px;
+}
+form button{
+    display: block;
+    padding: 10px;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: linear-gradient(to top right, var(--pink), var(--purple));
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Montserrat;
+    color: white;
+    transition: box-shadow .7s;
+    border: 0px;
+    cursor: pointer;
+}
+form button:hover{
+    box-shadow: 0px 8px 20px rgba(0,0,0,39%);
+}
+
