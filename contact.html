@@ -58,20 +58,21 @@
         </h3>
         <div class="border">
         </div>
-        <div class="my_form">
-            <form>
+        <div class="my_form" onsubmit="submitForm(event)">
+            <form name="contactForm">
                 <div class="element name">
-                    <input type="text" placeholder="Name:">
+                    <input type="text" placeholder="Name:" name="name">
                 </div>
                 <div class="element email">
-                    <input type="text" placeholder="Email:">
+                    <input type="text" placeholder="Email:" name="email">
                 </div>
                 <div class="element">
-                    <textarea placeholder="Message:"></textarea>
+                    <textarea placeholder="Message:" name="message"></textarea>
                 </div>
                 <div class="element">
-                    <button>SUBMIT</button>
+                    <button type="submit">SUBMIT</button>
                 </div>
+                <div class="success"><i class="fa fa-check"></i>  Thanks for contacting..! I'll get to you as soon as I can.</div>
             </form>
         </div>
     </div>
