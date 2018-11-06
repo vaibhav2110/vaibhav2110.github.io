@@ -80,7 +80,7 @@
                     <i class="fa fa-youtube" aria-hidden="true"></i>
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                 </div>
-                <a class="button" href="#">
+                <a class="button" href="https://secure-beach-60355.herokuapp.com/cv">
                     Download CV
                 </a>
             </div>
@@ -247,7 +247,23 @@
             <img src="./images/rect.png">
         </div>
     </section>
+    <div class="lds-ripple">
+        <div></div>
+        <div></div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            //Preloader
+            $(window).on("load", function() {
 
+                function hidePreloader() {
+                    var preloader = $('.lds-ripple');
+                    preloader.fadeOut(5000);
+                }
+                hidePreloader();
+            });
+        });
+    </script>
 </body>
 
 </html>

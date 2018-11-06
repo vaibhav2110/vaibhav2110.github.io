@@ -6,7 +6,7 @@ function submitForm() {
     req.message = document.forms['contactForm'].elements['message'].value;
     console.log(req);
     $.ajax({
-        url: 'localhost:5000',
+        url: 'https://secure-beach-60355.herokuapp.com/',
         dataType: 'json',
         type: 'post',
         contentType: 'application/json',

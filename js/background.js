@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     anime({
         targets: '.bg_img',
