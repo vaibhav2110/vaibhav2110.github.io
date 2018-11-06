@@ -219,8 +219,9 @@ section{
     background: linear-gradient(to top right, var(--pink), var(--purple));
     padding: 10px 20px;
     border-radius: 20px;
-    font-family: Montserrat;
+    font-family:'Montserrat', sans-serif;
     color: white;
+    font-weight: bolder;
     transition: box-shadow .7s;
 }
 .button:hover{
@@ -331,7 +332,7 @@ section{
 @media only screen and (max-width: 1000px){
     body{
         height: auto;
-        width: 98vw;
+        width: 100vw;
         overflow-y: scroll;
     }
     .bg_img{
@@ -340,8 +341,8 @@ section{
     .nav{
         flex-direction: row;
         top: 0%;
-        left: 5%;
-        width: 90%;
+        left: 2%;
+        width: 96%;
         height: 90px;
         justify-content: space-around;
         position: fixed;
@@ -349,7 +350,7 @@ section{
         box-shadow: 0px 5px 10px rgba(0,0,0,39%);
     }
     .vcard{
-        width: 80%;
+        width: 90%;
         margin: 0;
         padding: 0;
     }
@@ -361,7 +362,7 @@ section{
         justify-content: space-between;
     }
     .content{
-        width: 80%;
+        width: 90%;
         margin-top: 20px;
         margin-bottom: 40px;
         border-radius: 15px;
