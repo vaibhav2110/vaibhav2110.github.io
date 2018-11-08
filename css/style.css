@@ -223,6 +223,10 @@ section {
     margin-top: 100px;
 
 }
+.externals a{
+    text-decoration: none;
+    color: white;
+}
 
 .externals i:hover {
     color: var(--blue);
