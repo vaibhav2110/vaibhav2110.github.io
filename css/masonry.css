@@ -11,9 +11,18 @@
     transform: translate(-50%, -50%);
     color: white;
     z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .info h2{
     opacity: 0;
+}
+.sub{
+    font-size: 0.5em !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 .info h2 a{
     text-decoration: none;
