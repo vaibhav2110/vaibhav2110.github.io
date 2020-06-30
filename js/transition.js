@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .then(function (html) {
                 let doc = new DOMParser().parseFromString(html, "text/html");
+                console.log(doc.querySelector('.container'));
 
                 const section = document.getElementsByClassName('content')[0];
                 anime({
